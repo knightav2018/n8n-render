@@ -29,6 +29,10 @@ services:
         fromDatabase:
           name: n8nDB
           property: password
+      - key: SUPABASE_URL
+        value: 'https://vdzzppefrijatkqcoaxd.supabase.co'
+      - key: SUPABASE_KEY
+        value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZkenpwcGVmcmlqYXRrcWNvYXhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEwMTQyMzIsImV4cCI6MjA1NjU5MDIzMn0.NPRVR2u3oN5Vjo3T-gcUK22Lbyl1xUQJY3xOGDZrdzE'
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
